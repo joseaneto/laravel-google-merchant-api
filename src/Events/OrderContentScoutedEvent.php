@@ -1,6 +1,6 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Events;
+namespace Joseaneto\GoogleMerchantApi\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Foundation\Events\Dispatchable;

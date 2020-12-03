@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Exceptions;
+namespace Joseaneto\GoogleMerchantApi\Exceptions;
 
 class InvalidMechantDetails extends \Exception
 {
-    protected $message = 'MOIREI\GoogleMerchantApi: Could not determine merchant credentials.';
+    protected $message = 'Joseaneto\GoogleMerchantApi: Could not determine merchant credentials.';
 }

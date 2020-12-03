@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Exceptions;
+namespace Joseaneto\GoogleMerchantApi\Exceptions;
 
 class InvalidPriceInput extends \Exception
 {
-    protected $message = 'MOIREI\GoogleMerchantApi: The content price type is invalid.';
+    protected $message = 'Joseaneto\GoogleMerchantApi: The content price type is invalid.';
 }

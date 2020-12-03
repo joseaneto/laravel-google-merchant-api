@@ -1,13 +1,13 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Api;
+namespace Joseaneto\GoogleMerchantApi\Api;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException;
 use Closure;
 use GuzzleHttp\Promise\Promise;
-use MOIREI\GoogleMerchantApi\Exceptions\InvalidMechantDetails;
+use Joseaneto\GoogleMerchantApi\Exceptions\InvalidMechantDetails;
 
 abstract class AbstractApi{
 
@@ -128,7 +128,7 @@ abstract class AbstractApi{
 	 * Either use preconfigured merchant or provide new credentials.
 	 *
 	 * @param string|array $config
-	 * @throws \MOIREI\GoogleMerchantApi\Exceptions\InvalidMechantDetails
+	 * @throws \Joseaneto\GoogleMerchantApi\Exceptions\InvalidMechantDetails
 	 */
 	public function merchant($config){
 		if(is_string($config)){

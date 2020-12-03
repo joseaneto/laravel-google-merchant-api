@@ -1,6 +1,6 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi;
+namespace Joseaneto\GoogleMerchantApi;
 
 use Illuminate\Support\ServiceProvider;
 

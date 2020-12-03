@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Exceptions;
+namespace Joseaneto\GoogleMerchantApi\Exceptions;
 
 class InvalidTaxInput extends \Exception
 {
-    protected $message = 'MOIREI\GoogleMerchantApi: The tax input is invalid.';
+    protected $message = 'Joseaneto\GoogleMerchantApi: The tax input is invalid.';
 }

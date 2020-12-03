@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Exceptions;
+namespace Joseaneto\GoogleMerchantApi\Exceptions;
 
 class InvalidOrderPaymentMethodInput extends \Exception
 {
-    protected $message = 'MOIREI\GoogleMerchantApi: The order payment method type is invalid.';
+    protected $message = 'Joseaneto\GoogleMerchantApi: The order payment method type is invalid.';
 }

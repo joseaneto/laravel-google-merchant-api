@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Exceptions;
+namespace Joseaneto\GoogleMerchantApi\Exceptions;
 
 class ProductContentAttributesUndefined extends \Exception
 {
-    protected $message = 'MOIREI\GoogleMerchantApi: Product Content attributes configuration not defined.';
+    protected $message = 'Joseaneto\GoogleMerchantApi: Product Content attributes configuration not defined.';
 }

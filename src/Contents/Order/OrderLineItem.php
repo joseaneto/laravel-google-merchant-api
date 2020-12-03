@@ -1,9 +1,9 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Contents\Order;
+namespace Joseaneto\GoogleMerchantApi\Contents\Order;
 
-use MOIREI\GoogleMerchantApi\Contents\BaseContent;
-use MOIREI\GoogleMerchantApi\Contents\Price;
+use Joseaneto\GoogleMerchantApi\Contents\BaseContent;
+use Joseaneto\GoogleMerchantApi\Contents\Price;
 
 class OrderLineItem extends BaseContent
 {

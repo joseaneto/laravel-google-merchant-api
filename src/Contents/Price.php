@@ -1,6 +1,6 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Contents;
+namespace Joseaneto\GoogleMerchantApi\Contents;
 
 use Closure;
 
